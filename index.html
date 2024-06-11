@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Maker</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decision Maker</h1>
+        <form id="decision-form">
+            <label for="num-decisions">How many decisions do you have?</label>
+            <input type="number" id="num-decisions" name="num-decisions" min="2" required>
+            <button type="button" id="generate-inputs">Generate Inputs</button>
+        </form>
+        <form id="choices-form" style="display:none;">
+            <div id="choices-container"></div>
+            <button type="button" id="make-decision">Make a Decision</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <img id="image" src=" https://img.freepik.com/premium-vector/cartoon-thinking-man-vector-illustration_851674-46189.jpg " alt="image">
+    <img id="image2" src="https://i.etsystatic.com/34535598/r/il/f748b0/4328305666/il_570xN.4328305666_g3mw.jpg" alt="image2">
+    <script src="./index.js"></script>
+</body>
+</html>
